@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="cancelButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="482.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="88.0" layoutY="94.0" text="Username">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="154.0" prefHeight="17.0" prefWidth="52.0" text="Password" />
+      <PasswordField fx:id="enterPasswordField" layoutX="200.0" layoutY="150.0" prefHeight="25.0" prefWidth="187.0" promptText="Password" />
+      <Button fx:id="loginButton" layoutX="126.0" layoutY="271.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="202.0" style="-fx-background-color: #E95151;" text="Login" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="usernameTextfield" layoutX="200.0" layoutY="91.0" prefHeight="25.0" prefWidth="187.0" promptText="Username" />
+      <Button layoutX="126.0" layoutY="341.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="25.0" prefWidth="202.0" style="-fx-background-color: #E95151;" text="Cancel" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="182.0" layoutY="207.0" prefHeight="27.0" prefWidth="90.0" textFill="RED">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
